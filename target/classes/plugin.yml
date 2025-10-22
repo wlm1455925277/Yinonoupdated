@@ -1,0 +1,17 @@
+name: yinonoupdated
+main: cn.wlm123.yinonoupdated.Yinonoupdated
+version: '1.0-SNAPSHOT'
+api-version: '1.21'
+authors: [ wlm123 ]
+description: 艺之巅服务器专属！
+website: www.yizhidianmc.cn
+
+commands:
+  yinonoupdated:
+    description: 控制方块更新的开关/重算与工具
+    usage: /yinonoupdated <reload|resim <all|MATERIAL>|toggle <world>|tool <whitelist|filter>|addwl <M>|delwl <M>|addfilter <M>|delfilter <M>>
+    permission: yinonoupdated.admin
+
+permissions:
+  yinonoupdated.admin:
+    default: op
